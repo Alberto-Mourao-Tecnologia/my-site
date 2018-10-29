@@ -1,14 +1,36 @@
 @import url('../fonts/fonts.css');
 html, body{
 	font-family: eurostile;
+	scroll-behavior: smooth;
+}
+
+.logo{
+	font-size: 3em;
 }
 
 .banner{
+	min-height: 100%;
+}
+
+.banner-wrapper{
 	padding: 30px;
+}
+
+.banner-avatar{
+	display: block;
+	border-radius: 50%;
+	width: 15em;
+	margin-bottom: 50px;
 }
 
 .main-title, .sub-title{
 	letter-spacing: 1px;
+}
+
+
+.banner-arrow-down i{
+	font-size: 3em;
+	transform: translateY(20px);
 }
 
 @media screen and (max-width: 500px){
@@ -77,6 +99,15 @@ html, body{
 		border-left:  0;
 		border-top: 1px solid #e6ecf8;
 	}
+}
+
+.skills-icons{
+	font-size: 3em;
+	margin-bottom: 30px;
+}
+
+.skills-icons i{
+	margin-left: 5px;
 }
 
 .skills-title{

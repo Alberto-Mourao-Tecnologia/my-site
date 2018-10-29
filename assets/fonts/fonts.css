@@ -1,4 +1,9 @@
 @font-face {
+    font-family: 'waukegan';
+    src: url('waukegan/waukegan.ttf');
+}
+
+@font-face {
     font-family: 'eurostile';
     src: url('eurostile/eurostile.otf') format('otf');
     src: url('eurostile/eurostile-webfont.woff2') format('woff2'),
