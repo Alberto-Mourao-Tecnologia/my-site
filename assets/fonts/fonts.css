@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'eurostile';
+    src: url('eurostile/eurostile.otf') format('otf');
+    src: url('eurostile/eurostile-webfont.woff2') format('woff2'),
+         url('eurostile/eurostile-webfont.woff') format('woff');
+}
