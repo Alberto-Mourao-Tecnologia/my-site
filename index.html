@@ -26,20 +26,23 @@
 <body>
 
 
-	<nav class="navbar">
-		<a class="navbar-brand logo text-dark" href="http://albertomourao.me"><i class="fas fa-code"></i></a>
+	<nav class="navbar fixed-top navbar-light bg-light">
+		<a class="navbar-brand logo text-dark" href="http://albertomourao.me">
+			<i class="fas fa-code"></i><!-- 
+			<span class="logo-name">Alberto Mourão</span> -->
+		</a>
 		<div class="nav-item">
-			<a class="btn btn-outline-dark" href="#contact-box">Fale Comigo</a>
+			<a class="btn btn-outline-dark nav-btn" href="#contact-box">Fale Comigo</a>
 		</div>
 	</nav>
 
-	<section class="h-auto d-flex align-items-center banner">
+	<section class="h-auto d-flex align-items-center banner" id="banner">
 		<div class="w-100 banner-wrapper">
 			<img class="mx-auto banner-avatar" src="assets/images/eu.jpg">
 			<h1 class="text-center font-weight-bold main-title">Desenvolvedor Web Fullstack</h1>
-			<h2 class="text-center sub-title">Eu desenvolvo sites responsivos e bonitos.</h2>
+			<h2 class="text-center sub-title">Eu desenvolvo <span class="blue-text">sites  <span class="txt-rotate" data-period="2000" data-rotate='[ "responsivos.", "bonitos.", "rápidos." ]'></span></span></h2>
 		<div class="w-25 mx-auto text-center text-dark banner-arrow-down">
-			<a href="#greetings" class="text-dark">
+			<a href="#greetings" class="blue-text">
 				<i class="fas fa-angle-down"></i>
 			</a>
 		</div>
@@ -48,35 +51,36 @@
 
 	<section id="greetings" class="d-flex align-items-center bg-dark greeting-section">
 		<div class="d-inline-block mx-auto greeting-box">
-			<h3 class="text-center font-weight-bold text-white greeting">Me chamo Alberto, e é um prazer te conhecer!</h3>
-			<p class="text-center text-white bio-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<h3 class="text-center font-weight-bold text-white greeting">Me chamo <span class="blue-text">Alberto</span>, e é um prazer te conhecer!</h3>
+			<p class="text-center text-white bio-text">Programação sempre foi um mundo incrível e cheio de novas perspectivas para mim. Desde que comecei a trabalhar com isso, venho aprendendo cada vez mais a cada novo projeto e me fascinando mais ainda com as possibilidades e novos conhecimentos que tenho oportunidade de ver com a programação. Sou proficiente, sempre aprendendo coisas novas, apaixonado por novos desafios e uma nova oportunidade de mostrar o que sei!</p>
 		</div>
 	</section>
 
 	<section class="skills-section">
 		<div class="d-flex mx-auto bg-white skills-box">
 			<div class="skills-column">
-				<div class="skills-icons"><i class="fas fa-desktop"></i><i class="fas fa-tablet-alt"></i><i class="fas fa-mobile-alt"></i></div>
+				<div class="skills-icons blue-text"><i class="fas fa-desktop"></i><i class="fas fa-tablet-alt"></i><i class="fas fa-mobile-alt"></i></div>
 				<h4 class="skills-title">Desenvolvedor Front-end</h4>
 				<p class="skills-paragraph">Desenvolvo o front de forma responsiva e semântica.</p>
-				<p class="skills-subtitle">Linguagens que falo:</p>
+				<p class="skills-subtitle blue-text">Linguagens que falo:</p>
 				<p class="skills-paragraph">HTML 5, CSS 3 e JavaScript</p>
-				<p class="skills-subtitle">Ferramentas que utilizo:</p>
+				<p class="skills-subtitle blue-text">Ferramentas que utilizo:</p>
 				<ul class="skills-list">
 					<li class="skills-list-item">Bootstrap</li>
 					<li class="skills-list-item">Materialize</li>
 					<li class="skills-list-item">Bulma</li>
 					<li class="skills-list-item">Gitlab</li>
 					<li class="skills-list-item">Sublime</li>
+					<li class="skills-list-item">Basin</li>
 				</ul>
 			</div>
 			<div class="skills-column">
-				<div class="skills-icons"><i class="fas fa-database"></i><i class="fas fa-network-wired"></i></div>
+				<div class="skills-icons blue-text"><i class="fas fa-database"></i><i class="fas fa-network-wired"></i></div>
 				<h4 class="skills-title">Desenvolvedor Back-end</h4>
 				<p class="skills-paragraph">Desenvolvimento do back de forma limpa e organizada.</p>
-				<p class="skills-subtitle">Linguagens que falo:</p>
+				<p class="skills-subtitle blue-text">Linguagens que falo:</p>
 				<p class="skills-paragraph">PHP</p>
-				<p class="skills-subtitle">Ferramentas que utilizo:</p>
+				<p class="skills-subtitle blue-text">Ferramentas que utilizo:</p>
 				<ul class="skills-list">
 					<li class="skills-list-item">MySQL</li>
 					<li class="skills-list-item">PHPMyAdmin</li>
@@ -87,7 +91,8 @@
 	</section>
 
 	<section class="projects">
-		<h2 class="text-center font-weight-bold projects-title">Alguns dos meus trabalhos</h2>
+		<h2 class="text-center font-weight-bold projects-title">Alguns dos meus <span class="blue-text">trabalhos</span></h2>
+		<hr class="blue-bg horizontal-line">
 		<p class="text-center">Estes são alguns dos projetos que desenvolvi ou que participei. Quer saber mais? Me mande um <a href="mailto:falecomigo@albertomourao.me">email</a>.</p>
 		<div class="container projects-grid">
 			<div class="row justify-content-center">
@@ -114,24 +119,32 @@
 	</section>
 
 	<section class="companies">
-		<h2 class="companies-title text-center mx-auto">Empresas com as quais orgulhosamente trabalhei:</h2>
+		<h2 class="companies-title text-center mx-auto"><span class="blue-text">Empresas</span> com as quais orgulhosamente trabalhei:</h2>
 		<div class="container">
 			<div class="row justify-content-center">
-				<figure class="companies-item battoniti">
-					<a href="http://battoniti.com.br" target="_blank">
+				<a href="http://battoniti.com.br" target="_blank">
+					<figure class="companies-item battoniti">
 						<img src="assets/images/logo-battoniti.png" class="img-fluid">
-					</a>
-				</figure>
+					</figure>
+				</a>
+			</div>
+			<div class="row justify-content-center">
+				<a href="http://benedettieletrica.com.br" target="_blank">
+					<figure class="companies-item benedetti">
+						<img src="assets/images/logo-benedetti.png" class="img-fluid">
+					</figure>
+				</a>
 			</div>
 		</div>
 	</section>
 
 	<section class="testimonials">
 		<h2 class="testimonials-title text-center mx-auto">Depoimentos</h2>
+		<hr class="blue-bg horizontal-line">
 		<p class="testimonials-subtitle text-center">Algumas pessoas com as quais trabalhei têm algumas coisas boas a dizer...</p>
 		<div class="testimonials-column">
 			<div class="testimonials-block mx-auto">
-				<img class="testimonials-avatar mx-auto" src="assets/images/guilherme.jpeg">
+				<img class="testimonials-avatar mx-auto" src="assets/images/guilherme.jpg">
 				<p class="testimonials-paragraph w-75 text-center mx-auto">"O Júnior é um cara muito legal."</p>
 				<h5 class="testimonials-name text-center font-weight-bold">Guilherme Battoni</h5>
 				<h6 class="testionials-job text-center">CEO, Battoni TI</h6>
@@ -141,7 +154,7 @@
 
 	<section id="contact" class="contact bg-dark">
 		<div id="contact-box" class="contact-box mx-auto">
-			<h2 class="text-center contact-title font-weight-bold">Vamos começar um projeto?</h2>
+			<h2 class="text-center contact-title font-weight-bold">Vamos começar um <span class="blue-text">projeto</span>?</h2>
 			<h3 class="text-center contact-subtitle">Entre em contato!</h3>
 			<form class="mx-auto d-block" accept-charset="UTF-8" action="https://usebasin.com/f/d46ad4e9d010" method="POST">
 				<div class="form-group">
@@ -162,7 +175,7 @@
 	</section>
 
 	<footer>
-		<h2 class="text-center footer-title text-white">Me encontre nas mídias sociais!</h2>
+		<h2 class="text-center footer-title text-white">Me encontre nas <span class="blue-text">mídias sociais!</span></h2>
 		<div class="mx-auto d-flex justify-content-center footer-medias">
 			<a href="https://twitter.com/albertobfmourao" target="_blank"><i class="fab fa-twitter"></i></a>
 			<a href="https://www.facebook.com/junior.mourao.395" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -174,6 +187,9 @@
 			<a href="https://getbootstrap.com/" class="footer-bootstrap" target="_blank">
 				<svg class="d-inline-block" width="36" height="36" viewBox="0 0 612 612" xmlns="http://www.w3.org/2000/svg" focusable="false"><title>Bootstrap</title><path fill="currentColor" d="M510 8a94.3 94.3 0 0 1 94 94v408a94.3 94.3 0 0 1-94 94H102a94.3 94.3 0 0 1-94-94V102a94.3 94.3 0 0 1 94-94h408m0-8H102C45.9 0 0 45.9 0 102v408c0 56.1 45.9 102 102 102h408c56.1 0 102-45.9 102-102V102C612 45.9 566.1 0 510 0z"></path><path fill="currentColor" d="M196.77 471.5V154.43h124.15c54.27 0 91 31.64 91 79.1 0 33-24.17 63.72-54.71 69.21v1.76c43.07 5.49 70.75 35.82 70.75 78 0 55.81-40 89-107.45 89zm39.55-180.4h63.28c46.8 0 72.29-18.68 72.29-53 0-31.42-21.53-48.78-60-48.78h-75.57zm78.22 145.46c47.68 0 72.73-19.34 72.73-56s-25.93-55.37-76.46-55.37h-74.49v111.4z"></path></svg> 
 		Bootstrap</a></p>
+		<div class="footer-back-to-top">
+			<a href="#banner" class="btn btn-primary blue-bg float-right">Voltar <i class="fas fa-arrow-up"></i></a>
+		</div>
 	</footer>
 
 

@@ -2,14 +2,41 @@
 html, body{
 	font-family: eurostile;
 	scroll-behavior: smooth;
+	background-color: #fafafa;
 }
 
+/*global classes*/
+.blue-text{
+	color: #009FFD;
+}
+.blue-bg{
+	background-color: #009FFD;
+}
+
+.horizontal-line{
+	width: 50px;
+	border-top: 2px solid rgba(0,0,0,.1);
+}
+
+
+/*specific classes*/
 .logo{
 	font-size: 3em;
 }
 
+.logo-name{
+	font-size: 0.7em;
+}
+
+.nav-btn:hover{
+	color: #fff;
+  background-color: #009FFD;
+  border-color: #009FFD;
+}
+
 .banner{
 	min-height: 100%;
+	padding-top: 80px;
 }
 
 .banner-wrapper{
@@ -43,7 +70,7 @@ html, body{
 }
 
 .greeting-section{
-	padding: 90px 10px 150px 10px;
+	padding: 120px 10px 150px 10px;
 }
 
 .greeting-box{
@@ -129,10 +156,6 @@ html, body{
 	padding: 90px 30px;
 }
 
-.projects-title{
-	margin-bottom: 30px;
-}
-
 .projects-item figure{
 	position: relative;
 	border-radius: 12px;
@@ -177,6 +200,10 @@ html, body{
 	border-top: 1px solid #E6ECF8;
 }
 
+.companies-item{
+	max-width: 250px;
+}
+
 .companies-title{
 	width: 80%;
 	margin-bottom: 100px;
@@ -189,6 +216,14 @@ html, body{
 	border-radius: 12px;
 }
 
+.benedetti{
+	background-color: #011733;
+	padding: 30px;
+	box-sizing: border-box;
+	border-radius: 12px;
+}
+
+
 .testimonials{
 	padding: 90px 30px;
 	border-top: 1px solid #E6ECF8;
@@ -197,7 +232,6 @@ html, body{
 
 .testimonials-title{
 	width: 80%;
-	margin-bottom: 30px;
 }
 
 .testimonials-subtitle{
@@ -226,7 +260,7 @@ html, body{
 
 .contact-box{
 	margin-top: -290px;
-	border:  1px solid #626a71;
+	border:  3px solid #626a71;
 	padding: 50px;
 	border-radius: 12px;
 	width: 50%; 
@@ -267,7 +301,8 @@ footer{
 
 .footer-medias a{
 	font-size: 2em;
-	border: 3px solid #007bff;
+	border: 3px solid #009FFD;
+	color: #009FFD;
 	border-radius: 50%;
 	width: 1.7em;
 	text-align: center;
@@ -276,7 +311,7 @@ footer{
 }
 
 .footer-medias a:hover{
-	background-color: #007bff;
+	background-color: #009FFD;
 	color: white;
 }
 
@@ -291,5 +326,9 @@ footer{
 
 .footer-bootstrap:hover{
 	text-decoration: none!important;
-	color: lightblue;
+	color: #009FFD;
+}
+
+.footer-back-to-top{
+	padding: 0 30px;
 }
