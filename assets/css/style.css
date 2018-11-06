@@ -34,6 +34,16 @@ html, body{
 	font-size: 0.7em;
 }
 
+.languages{
+	margin-right: 30px;
+}
+
+@media screen and (max-width: 600px){
+	.languages{
+		margin-right: 15px;
+	}
+}
+
 .nav-btn:hover{
 	color: #fff;
   background-color: #009FFD;
